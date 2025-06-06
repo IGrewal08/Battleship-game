@@ -1,11 +1,5 @@
 import "/src/styles.css";
 
-if (true) {
-  console.log("yes!");
-}
-
-console.log("test");
-
 /* 
 Run Webpack:
     npm run build
