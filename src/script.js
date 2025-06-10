@@ -24,9 +24,8 @@ export class GameBoard {
   }
   place(arr) {
     const ship = new Ship(arr.length);
-    const element = { ref: ship, status: 1 };
     arr.forEach(part => {
-      this.board[part.x][part.y] = element;
+      this.board[part.n][part.l] = { ref: ship, status: 1 };;
     });
     this.ships.push(ship);
   }

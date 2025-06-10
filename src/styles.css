@@ -7,7 +7,7 @@
 }
 
 :root {
-  --main-border-color: lightsteelblue;
+  --main-border-color: rgba(176, 196, 222, 0.701);
 }
 
 body {
@@ -98,7 +98,7 @@ header {
   text-align: center;
   align-items: center;
   border: 1px solid var(--main-border-color);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .board_play > *,
@@ -124,10 +124,22 @@ header {
   align-items: center;
   font-size: 8rem;
   color: white;
+}
+
+.end_game.hide,
+.reset.hide {
   visibility: hidden;
 }
 
-.end_game button {
+.reset {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.end_game button,
+.reset {
   font-size: 2rem;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
@@ -136,6 +148,7 @@ header {
   background-color: var(--main-border-color);
 }
 
-.end_game button:hover {
+.end_game button:hover,
+.reset:hover {
   background-color: darkslategray;
 }
