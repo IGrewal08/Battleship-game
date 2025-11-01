@@ -23,7 +23,6 @@ const play = (function () {
         elements.computer_board.appendChild(tile2);
 
         tile1.addEventListener("click", (e) => {
-          console.log(e.target.getAttribute("id"));
           return e.target.getAttribute("id");
         });
 
@@ -180,7 +179,6 @@ const play = (function () {
         }
         row += " ";
       }
-      console.log(row);
       row = "";
     }
   }

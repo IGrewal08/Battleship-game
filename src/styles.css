@@ -7,7 +7,7 @@
 }
 
 :root {
-  --main-border-color: rgba(176, 196, 222, 0.701);
+  --main-border-color: rgba(176, 196, 222, 0.298);
 }
 
 body {
@@ -135,13 +135,14 @@ header {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .end_game button,
 .reset {
   font-size: 2rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 1rem;
   border: none;
   color: inherit;
