@@ -1,7 +1,7 @@
 # Battleship
 A classic game of Battleship built from scratch using object-oriented JavaScript, fully tested with Jest, and bundled with Webpack. Play against the computer and try to sink all their ships before they sink yours!
 
-![](/dist/md-preview.png)
+![](/src/md-preview.png)
 
 ## Technologies
 * Node.js v22.14
